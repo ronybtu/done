@@ -43,11 +43,6 @@ body {
     position: relative;
 }
 
-.navber ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 
 .navber ul li::after {
@@ -62,11 +57,19 @@ body {
 }
 
 
-
-
 .navber ul li:hover::after{
     width: 100% ;
 }
+
+
+.navber ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
 
 
 
@@ -74,7 +77,7 @@ body {
     width: 100%;
     position: absolute;
     top: 50%;
-    transform: translate(-50);
+    /* transform: translate(-50); */
     text-align: center;
     color: #fff;
 }
@@ -131,11 +134,3 @@ button:hover{
     border:none;
 }
 
-
-
-.bedrom-groups{
-    position: absolute;
-    top: 450px;
-    display: flex;
-    background-color: #009688;
-}
